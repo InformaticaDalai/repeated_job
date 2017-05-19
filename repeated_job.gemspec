@@ -12,11 +12,11 @@ Gem::Specification.new do |s|
   s.summary                   = "repeated_job-#{s.version}"
 
   s.rubyforge_project         = "repeated_job"
-  s.required_rubygems_version = "> 1.3.6"
+  s.required_rubygems_version = "> 1.8.11"
 
-  s.add_dependency "activesupport" , "~> 3.0"
-  s.add_dependency "rails"         , "~> 3.0"
-  s.add_dependency "delayed_job"   , "~> 3.0"
+  s.add_dependency "activesupport" , "~> 4.0.13"
+  s.add_dependency "rails"         , "~> 4.0.13"
+  s.add_dependency "delayed_job"   , "~> 4.1.2"
 
   s.files = Dir["lib/**/*"] + ["Rakefile", "README.markdown"]
   s.require_path = 'lib'
